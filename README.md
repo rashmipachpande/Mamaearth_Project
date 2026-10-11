@@ -277,30 +277,4 @@ python narrator/generate_narrative.py
 ```
 
 ---
-
-## Grading Rubric Compliance Checklist
-
-| Part | Task / Component | Target Metric / Result | Status |
-| :--- | :--- | :--- | :---: |
-| **Part 1** | Schema & Constraints | customers (45), products (16), orders (180) | `PASS` |
-| **Part 1** | SQL Reports (a–i) | 9 queries executed with output comments in `sql/reports.sql` | `PASS` |
-| **Part 2** | Task 1: Load & Inspect | `orders.shape` = (180, 9) | `PASS` |
-| **Part 2** | Task 2: Standardize Casing | CARD: 70, UPI: 55, COD: 55 | `PASS` |
-| **Part 2** | Task 3: Deduplication | Dropped 5 rows (`O0176`–`O0180`), Clean shape (175, 9) | `PASS` |
-| **Part 2** | Task 4: Imputation | `discount_pct` 0 (12 rows), `rating` median 3.0 (15 rows) | `PASS` |
-| **Part 2** | Task 5: Reconciliation | Cleaned Rev = **INR 97,358.30**, Delta = **INR 2,501.90** | `PASS` |
-| **Part 2** | Task 6: IQR Outliers | Flagged `O0011` (qty 25) & `O0098` (qty 30) | `PASS` |
-| **Part 2** | Task 7: COD Hypothesis | **CONFIRMED** — COD return rate = **44.4%** | `PASS` |
-| **Part 2** | Task 8: Segmentation | **COD + Tier-2 Cities** = **54.5%** return rate | `PASS` |
-| **Part 2** | Task 9: Correlation | All pairs `Negligible` (`\|r\| < 0.2`), Discount hypothesis **BUSTED** | `PASS` |
-| **Part 2** | Task 10: Time Series | Outlier-corrected peak month = **March 2026 (INR 20,318.90)** | `PASS` |
-| **Part 2** | Task 11: Visualizations | 2 PNGs created under `visualizations/` | `PASS` |
-| **Part 3** | Task 1: findings.json | Exported automatically from Python code | `PASS` |
-| **Part 3** | Task 2: SCR Narrative | 3 sections (Situation, Complication, Resolution) via Gemini API | `PASS` |
-| **Part 3** | Task 3: Lock Parameters | `temperature=0.0`, token limit, timeout, error handling | `PASS` |
-| **Part 3** | Task 4: Offline Fallback | Keyless deterministic generator for zero-spend grading | `PASS` |
-| **Part 3** | Task 5: Accuracy Checklist | All 5 key numbers verified in narrative | `PASS` |
-| **Part 3** | Task 6: README Setup | Step-by-step reproduction guide | `PASS` |
-
----
 *Mamaearth Returns & Growth Intelligence Pipeline — Built for E&ICT Academy IIT Roorkee & Masai Capstone Submission.*
