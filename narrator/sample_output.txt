@@ -1,0 +1,13 @@
+=== MAMAEARTH INSIGHT NARRATIVE (SOURCE: GEMINI_API) ===
+
+### Situation
+Following a comprehensive financial and operational audit of Mamaearth's transactional data, we have established an accurate performance baseline. After purging systemic redundancies and accounting for outlier distortions (such as January 2026's artificial revenue inflation), our cleaned total revenue stands at 97,358.30. This audit successfully resolved initial overstatements by isolating a duplicate reconciliation delta of 2,501.90. Furthermore, normalizing monthly sales velocity reveals that our true peak month was March 2026 with revenue 20,318.90, providing clear operational visibility into genuine quarterly demand patterns.
+
+### Complication
+Despite steady baseline sales, net operational profitability is heavily impaired by cash-on-delivery logistics friction and reverse transport costs. Across the portfolio, the standard COD return rate reached 44.4%, severely lagging digital channels such as prepaid cards (14.7%) and UPI (18.9%). Fulfillment strain is heavily concentrated in non-metro regions, where our highest-risk segment (COD Tier-2) return rate hit 54.5%. With over half of these deliveries resulting in Return-to-Origin (RTO), regional operations face significant inventory lock-ups and inflated return logistics expenses.
+
+### Resolution
+To protect operating margins and optimize inventory allocation, regional operations and finance will execute a three-part intervention strategy:
+1. **Pre-Dispatch Order Verification:** Deploy automated IVR and WhatsApp confirmations for all Tier-2 Cash-on-Delivery orders prior to dispatch to intercept high-risk rejections.
+2. **Prepaid Conversion Incentives:** Offer instant checkout discounts and UPI cashbacks targeted specifically at high-risk COD demographics to drive digital adoption and reduce logistics leakage.
+3. **Capacity & Inventory Realignment:** Shift logistics forecasting and warehouse staffing away from distorted legacy baselines to align with our audited true peak month of March 2026 with revenue 20,318.90, using the cleaned total revenue benchmark of 97,358.30 to guide future regional budget allocations.
