@@ -1,13 +1,16 @@
 === MAMAEARTH INSIGHT NARRATIVE (SOURCE: GEMINI_API) ===
 
 ### Situation
-Following a comprehensive financial and operational audit of Mamaearth's transactional data, we have established an accurate performance baseline. After purging systemic redundancies and accounting for outlier distortions (such as January 2026's artificial revenue inflation), our cleaned total revenue stands at 97,358.30. This audit successfully resolved initial overstatements by isolating a duplicate reconciliation delta of 2,501.90. Furthermore, normalizing monthly sales velocity reveals that our true peak month was March 2026 with revenue 20,318.90, providing clear operational visibility into genuine quarterly demand patterns.
+
+Following an end-to-end audit of regional transactional ledgers and order fulfillment pipelines, Mamaearth’s finance and analytics teams conducted a comprehensive data reconciliation to establish an accurate operating baseline. Removing transactional redundancies, phantom bookings, and outlier-inflated distortions resulted in an authenticated **Cleaned total revenue: 97,358.30** (reconciled down from the raw figure of 99,860.20). Additionally, while initial reporting indicated an anomalous sales spike in January 2026 (distorted at 29,582.10 vs. corrected 11,637.10), operational data confirms the **True peak month: March 2026 with revenue 20,318.90**. 
 
 ### Complication
-Despite steady baseline sales, net operational profitability is heavily impaired by cash-on-delivery logistics friction and reverse transport costs. Across the portfolio, the standard COD return rate reached 44.4%, severely lagging digital channels such as prepaid cards (14.7%) and UPI (18.9%). Fulfillment strain is heavily concentrated in non-metro regions, where our highest-risk segment (COD Tier-2) return rate hit 54.5%. With over half of these deliveries resulting in Return-to-Origin (RTO), regional operations face significant inventory lock-ups and inflated return logistics expenses.
+
+Operational profitability and working capital efficiency are facing significant pressure from reconciliation discrepancies and high fulfillment friction in Cash-on-Delivery (COD) channels. The ledger review identified a **Duplicate reconciliation delta: 2,501.90**, highlighting systemic double-counting vulnerabilities in order ingestion. Simultaneously, reverse logistics costs are surging due to a company-wide **COD return rate: 44.4%**, which substantially underperforms non-cash payment rails (UPI at 18.9% and Cards at 14.7%). This leakage is acutely concentrated geographically and demographically, with the **Highest-risk segment (COD Tier-2) return rate: 54.5%**, generating severe inventory lock-in and unrecoverable freight costs.
 
 ### Resolution
-To protect operating margins and optimize inventory allocation, regional operations and finance will execute a three-part intervention strategy:
-1. **Pre-Dispatch Order Verification:** Deploy automated IVR and WhatsApp confirmations for all Tier-2 Cash-on-Delivery orders prior to dispatch to intercept high-risk rejections.
-2. **Prepaid Conversion Incentives:** Offer instant checkout discounts and UPI cashbacks targeted specifically at high-risk COD demographics to drive digital adoption and reduce logistics leakage.
-3. **Capacity & Inventory Realignment:** Shift logistics forecasting and warehouse staffing away from distorted legacy baselines to align with our audited true peak month of March 2026 with revenue 20,318.90, using the cleaned total revenue benchmark of 97,358.30 to guide future regional budget allocations.
+
+To protect gross margins and streamline regional operations, regional leadership and finance must execute three immediate actions:
+1. **Strengthen ERP Ingestion Controls:** Deploy strict transaction idempotency protocols and real-time database deduplication to permanently resolve ledger discrepancies and eliminate the duplicate reconciliation delta: 2,501.90 from future financial reporting.
+2. **De-risk Tier-2 COD Channels:** Implement automated pre-dispatch confirmation via WhatsApp/OTP and partial digital prepayments (e.g., INR 50 shipping deposit) specifically aimed at curbing the 44.4% COD return baseline and correcting the 54.5% return rate across Tier-2 COD orders.
+3. **Realign S&OP to Verified Baselines:** Recalibrate production schedules and inventory allocation using the authenticated cleaned total revenue: 97,358.30 and the true peak month: March 2026 with revenue 20,318.90 to ensure optimal working capital deployment for subsequent quarters.
